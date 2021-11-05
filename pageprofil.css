@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    border: 1px solid red;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.foto {
+    display: flex;
+    gap: 30px;
+}
+ul {
+    list-style: none;
+}
+
+.img,.tulis,.kategori {
+}
+
+.gambar {
+    width: 20%;
+}
+
+.gambar img {
+    width: 100%;
+}
+
+
+.tulis {
+    width: 60%;
+}
+
+.kategori {
+    width:20%;
+}
+
+.vidio {
+    width:33%;
+}
+
+.multimedia {
+    display: flex;
+    height: 200px;
+}
+.vidio video {
+    width: 100%;
+    height: 100%;
+}
+
+.gambar {
+    width: 33%;
+    height: 100%;
+}
+
+.link {
+    width: 33%;
+    height: 100%;
+}
+
+fieldset {
+    height: 100%;
+}
+.gambarflex {
+    display: flex;
+}
+.gambarflex img {
+    width: 50%;
+    height: 90px;
+}
